@@ -1,0 +1,18 @@
+.List {
+    display: grid;
+    gap: 1.5rem;
+    margin: 1rem auto;
+    min-height: 0;
+}
+
+@media screen and (max-width: 560px) {
+    .List {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 561px) {
+    .List {
+        grid-template-columns: 35rem;
+    }
+}

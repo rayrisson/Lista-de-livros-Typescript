@@ -1,0 +1,9 @@
+.Card {
+    background-color: #759ebb;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    word-break: break-all;
+}
